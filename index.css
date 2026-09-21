@@ -1,0 +1,91 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:sans-serif;
+  background-color:#f4f7f6;
+  color:#2d3748;
+  line-height:1.6;
+}
+header{
+  background-color:#1a365d;
+  color:#ffffff;
+  text-align:center;
+  padding:40px 20px;
+}
+header h1{
+  font-size:f2.2rem;
+  margin-bottom:8px;
+  text-transform:uppercase;
+  letter-spacing: 1px;
+}
+header p{
+  font-size: 1.1rem;
+  color:#cbd5e0;
+  margin-bottom: 15px;
+}
+
+/* Adds space between icons and text */
+header h2 i,
+header h3 i,
+.card h3 i,
+.card li i {
+  margin-right: 8px;
+  color: #2b6cb0; /* Changes icon color to match your heading theme */
+}
+
+/* Optional: adjust list item alignment */
+.card ol li {
+  list-style: none; /* Removes default numbers if using icons */
+  margin-bottom: 8px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background:#ffffff;
+  padding: 25px 30px;
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h2{
+  color: #2b6cb0;
+  font-size: 1.3 rem;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #718096;
+  font-size: 0.9rem;
+}
+  
+  
+  
